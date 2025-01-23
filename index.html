@@ -8,13 +8,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
 </head>
 <body class="quicksand">
     <header>
         <nav class="nav-bar flex">
             <div class="logo flex">
                 <div class="logo-img"></div><img src="./assets/images/logo.png" alt="">
-                <H1 class="name">School</H1>
+                <h1 class="name">School</h1>
             </div>
             <ul class="nav-links flex">
                 <li class="nav-items"><a href=""class="nav-link home">Home</a></li>
@@ -24,6 +25,10 @@
             </ul>
             <button class="btn-contact">Contact</button>
             <!-- <img class="menu" src="./assets/menu.png" alt=""> -->
+             <div class="all"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                fill="black">
+                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+            </svg></div>
         </nav >
 
         <div class="banner-content flex">
@@ -36,6 +41,50 @@
             <div><img class="h-bg" src="./assets/images/hero-kids.png" alt=""></div>
         </div>
     </header>
-    
+    <main>
+
+        <section class="standard-curriculum">
+            <h1 class="sc-title">Standard Curriculum</h1>
+            
+            <div class="sc-content flex">
+                <div class="sc-box b1">
+                    <img class="sc-img" src="./assets/images/kinder.png" alt="">
+                    <h3 class="sc-heading">Kinder (3-6) Years</h3>
+                    <p class="sc-info">Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                    <a class="sc-rm-b" href="">Read More</a>
+                </div>
+                <div class="sc-box b2">
+                    <img class="sc-img" src="./assets/images/elementary.png" alt="">
+                    <h3 class="sc-heading">Elementary School</h3>
+                    <p class="sc-info">Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                    <a class="sc-rm-y" href="">Read More</a>
+                </div>
+                <div class="sc-box b3">
+                    <img class="sc-img" src="./assets/images/middle.png" alt="">
+                    <h3 class="sc-heading">Middle (10-16) Years</h3>
+                    <p class="sc-info">Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                    <a class="sc-rm-p" href="">Read More</a>
+                </div>
+            </div>
+
+        <div class="flex arrow-icon">
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+             fill="white">
+             <path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z" />
+        </svg>
+
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+             fill="white">
+             <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+        </svg>
+        </div>
+        </section>
+    </main>
 </body>
 </html>
