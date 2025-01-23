@@ -2,9 +2,13 @@
     .name,.btn-contact,.nav-links{
         display: none;
     }
+    body{
+        margin: 0;
+    }
     .nav-bar{
         width: auto;
         justify-content: space-between;
+        /* width: 100%; */
     }
     .all{
         display: inline-block;
@@ -39,13 +43,10 @@
         font-size: 12px;
     }
 
-    .h-bg {
-        width: 280px;
+    .banner-content img {
+        width: 300px;
         height: auto;
     }
-
-
-
     .btn-enroll {
         width: 131;
         height: 42px;
@@ -57,8 +58,41 @@
         text-align: center;
         border: 0;
         cursor: pointer;
+        margin-bottom: 30px;
     }
 
+    /* standard */
+    .sc-title{
+        /* row-gap: 100px; */
+    }
+    .sc-content{
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        gap: 10px;
+        justify-content: center;
+        margin: 0 10px;
+    }
+    /* .standard-curriculum{
+        position: relative;
+        margin-top: 30px;
+        height: auto;
+        width: auto;
+    } */
+    .arrow{
+        display: none;
+    }
+
+    /* story */
+
+    #box-1{
+        display: none;
+    }
+    .story-content{
+        width: auto;
+        margin-top: 800px;
+        /* margin-right: 0; */
+    }
 
 
 }
