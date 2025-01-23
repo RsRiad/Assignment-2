@@ -3,7 +3,7 @@
         display: none;
     }
     body{
-        margin: 0;
+        margin: 0 auto;
     }
     .nav-bar{
         width: auto;
@@ -89,10 +89,13 @@
         display: none;
     }
     .story-content{
-        width: auto;
-        margin-top: 800px;
+        /* width: auto; */
+        
         /* margin-right: 0; */
     }
-
+    .right{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
 
 }
