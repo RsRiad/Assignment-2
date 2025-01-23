@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    margin: 0 auto;
+    margin: 0 140px;
 
 }
 .quicksand {
@@ -142,7 +142,7 @@ a{
 .standard-curriculum{
     width: auto;
     height: auto;
-    background-image: url(../assets/bg.png);
+    /* background-image: url(../assets/images/bg.png); */
     padding: 60px 0px 60px 0px;
 }
 .sc-content{
@@ -220,8 +220,8 @@ text-decoration: none;
     height: auto;
     /* background-image: url(../assets/bg.png); */
     padding: 60px 0px 60px 0px;
-    background: url(../assets/images/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
-
+    background: url("/assets/images/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    /* background: url(/assets/images/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%); */
 }
 
 .stories{
@@ -247,6 +247,18 @@ text-decoration: none;
 .s1{
     position: relative;
     /* flex-grow: 1; */
+    
+}
+.s-title1, .s-info1{
+    padding-top: 30px;
+    /* padding-bottom: 30px; */
+}
+
+.right{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* width: 425px; */
+    
 }
 .box{
     width: auto;
@@ -298,7 +310,18 @@ text-decoration: none;
     font-weight: 700;
     margin-left: 30px;
 }
-.right{
+
+footer{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    background-color: rgb(80, 148, 217);
+    color:white;
+    margin: 0 auto;
+    justify-content: center;
+    justify-items: center;
+}
+
+.ll{
+    align-items: center;
 }
